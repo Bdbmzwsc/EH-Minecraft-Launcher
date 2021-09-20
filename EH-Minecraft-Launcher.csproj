@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>EH_Minecraft_Launcher</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Bround.gif" />
+    <None Remove="背景.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.2.1-ci8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Bround.gif" />
+    <Resource Include="背景.png" />
+  </ItemGroup>
+
+</Project>
